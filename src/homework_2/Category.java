@@ -5,22 +5,19 @@ public abstract class Category {
     protected String name;
 
     public Category(String name) {
-        setValues(name);
-    }
+     setName(name);
+  }
 
 
     public abstract void open();
 
-    public abstract void stay();
 
 
-    public void setValues (String name) {
+    public void setName (String name) {
         this.name = name;
     }
 
-    public void setValue (String iconDescription) {
-        this.iconDescription = iconDescription;
-    }
+
 }
 
 

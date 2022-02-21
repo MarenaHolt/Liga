@@ -3,21 +3,21 @@ package homework_2;
 public class SearchBar {
 
     private String field; //инкапсуляция (поля закрыты для общего использования)
-    private String icon;
+    private String iconMagnifier;
 
-    public SearchBar(String field, String icon) { //конструктор класса
+    public SearchBar(String field, String iconMagnifier) { //конструктор класса
         System.out.println("Открыта страница Ozon");
-        setValues(field, icon);
-        System.out.println(getValues() + "\n");
+        setValues(field, iconMagnifier);
+        System.out.println(getDescription() + "\n");
     }
 
-    public void setValues(String field, String icon) {
+    public void setValues(String field, String iconMagnifier) {
         this.field = field;
-        this.icon = icon;
+        this.iconMagnifier = iconMagnifier;
     }
 
-    public String getValues() {
-        String info = "Открыто поле поиска с надписью " + field + "\n" + "Теперь в этом поле можно написать название нужного товара" + "\n" + "И " + icon + "\n" + "Но нам этого не нужно, остаемся на этой странице";
+    public String getDescription() {
+        String info = "Открыто поле поиска с надписью " + field + "\n" + "Теперь в этом поле можно написать название нужного товара" + "\n" + "И " + iconMagnifier;
         return info;
     }
 

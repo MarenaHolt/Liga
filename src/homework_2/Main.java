@@ -3,17 +3,17 @@ package homework_2;
 public class Main {
     public static void main(String[] args) {
 
-        SearchBar ozon = new SearchBar("Искать на Ozon", "Клик мышкой на поиск");
+        SearchBar ozon = new SearchBar("Искать на Ozon", "Кликнуть мышкой на поиск");
 
-        Title title_ozon = new Title("Электроника");
+        TitleCatalogResultsHeader titleCatalogResultsHeader_ozon = new TitleCatalogResultsHeader("Электроника");
 
-        List list_ozon = new List("Список товаров");
+        MainCategoryList mainCategoryList_ozon = new MainCategoryList("Список товаров");
 
-        Ad ad_ozon = new Ad("Рекламный блок");
+        Advertising advertising_ozon = new Advertising("Рекламный блок");
 
-        Ad ad_ozon2 = new Ad("Рекламный блок", "Ozon");
+        AdvertisingLoyalty advertisingLoyalty_ozon = new AdvertisingLoyalty("Рекламный блок лояльности от Ozon");
 
-        TableElements te_ozon = new TableElements("Группы товаров в категории Электроника");
+        ProductCategoryElementsTable te_ozon = new ProductCategoryElementsTable("Группы товаров в категории Электроника");
 
 
     }
