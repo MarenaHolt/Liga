@@ -9,7 +9,7 @@ public class StorageGoods {
 
         Scanner scan = new Scanner(System.in);
 
-        ArrayList<String> goods = new ArrayList<>();
+        ArrayList<String> goods = new ArrayList<>(15);
 
         goods.add("Чебурашка");
         goods.add("Матрешка");
