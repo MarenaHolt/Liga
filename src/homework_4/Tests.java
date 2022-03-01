@@ -35,7 +35,7 @@ System.out.println();
     public void test_2() {
 
      List<Integer> integerList = getIntList();
-     integerList.stream().sorted(Collections.reverseOrder()).collect(Collectors.toList());
+     integerList.stream().sorted(Collections.reverseOrder()).toList();
 
     }
 
