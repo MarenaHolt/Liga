@@ -11,6 +11,7 @@ public class StorageGoods {
 
         ArrayList<String> goods = new ArrayList<>(15);
 
+
         goods.add("Чебурашка");
         goods.add("Матрешка");
         goods.add("Балалайка");
